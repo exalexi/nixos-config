@@ -7,10 +7,10 @@
       catppuccin.catppuccin-vsc
       jnoortheen.nix-ide
     ];
-    userSettings = {
+    /*userSettings = {
       "workbench.iconTheme" = "catppuccin-mocha";
       "workbench.colorTheme" = "Catppuccin Mocha";
       "files.autoSave" = "onFocusChange";
-    };
+    };*/
   };
 }
