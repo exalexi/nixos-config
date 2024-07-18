@@ -24,5 +24,6 @@
     texlive.combined.scheme-full
     texworks
     nixfmt-rfc-style
+    rpi-imager
   ];
 }
