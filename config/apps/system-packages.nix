@@ -12,5 +12,8 @@
     usbutils
     udiskie
     udisks
+    polkit
+    ntfs3g
+    pavucontrol
   ];
 }

@@ -6,5 +6,6 @@
       ./swaylock.nix
       ./sway-extraconfig.nix
       ./waybar/waybar.nix
+      ./sway-notifications.nix
     ];
 }

@@ -9,13 +9,19 @@
       ./config/system/system-imports.nix
     ];
 
-  # Bootloader.
-  boot.loader = {
-  	systemd-boot.enable = true;
-  	efi.canTouchEfiVariables = true;
+  # Bootloader & Plymouth
+  boot = {
+    loader = {
+      systemd-boot.enable = true;
+  	  efi.canTouchEfiVariables = true;
+    };
+    kernelParams = [ "quiet" ];
+    initrd = {
+      kernelModules = [ "amdgpu" ];
+      systemd.enable = true;
+    };
+    plymouth.enable = true;
   };
-
-
   
   # Greeter
   services.greetd = {
@@ -29,24 +35,17 @@
   	  };
   	};
   };
-  
-  # Plymouth
-  boot = {
-    kernelParams = [ "quiet" ];
-    initrd.systemd.enable = true;
-    plymouth.enable = true;
-  };
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.lexi = {
     isNormalUser = true;
     description = "Lexi";
-    extraGroups = [ "networkmanager" "wheel" "video" ];
+    extraGroups = [ "networkmanager" "wheel" "video" "storage"];
     packages = with pkgs; [];
   };
 
   # Set cursor size
-  environment.variables.XCURSOR_SIZE = 40;  
+  #environment.variables.XCURSOR_SIZE = 40;  
 
   # Begin home-manager directives
   home-manager = {

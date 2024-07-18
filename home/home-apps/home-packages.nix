@@ -4,7 +4,6 @@
     neofetch
     htop
     eza
-    swayidle
     wl-clipboard
     mako
     alacritty
@@ -14,7 +13,6 @@
     gnome.evince
     gnome.file-roller
     gnome.nautilus
-    dolphin
     element-desktop
     rpi-imager
     tigervnc
@@ -24,6 +22,16 @@
     texlive.combined.scheme-full
     texworks
     nixfmt-rfc-style
-    rpi-imager
+    vlc
+    grim
+    slurp
+    # Rofi Add-ons
+    rofi-power-menu
+    rofimoji
+    rofi-screenshot
+
+    # Waybar Media Player
+    feh 
+    playerctl
   ];
 }

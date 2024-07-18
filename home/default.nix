@@ -10,6 +10,7 @@
     ./home-apps/home-apps-imports.nix
     ./catppuccin.nix
     ./cursor.nix
+    #./default-apps.nix
   ];
   
   # The state verson is required and should stay at the version you originally installed.

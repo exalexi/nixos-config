@@ -2,21 +2,15 @@
   home.pointerCursor = lib.mkForce {
     name = "capitaine-cursors";
     package = pkgs.capitaine-cursors;
-    size = 40;
-    x11 = {
-      enable = true;
-      defaultCursor = "capitaine-cursors";
-    };
+    #size = 40;
     gtk.enable = true;
+    x11.enable = true;
   };
-
-    /*gtk = {
-      enable = true;
-      cursorTheme = {
-      	name = "capitaine-cursors";
-      	package = pkgs.capitaine-cursors;
-      	size = 40;
-      };	
-    };*/
-
+  gtk = {
+    cursorTheme = {
+      name = "capitaine-cursors";
+      package = pkgs.capitaine-cursors;
+      #size = 40;
+    };	
+  };
 }
