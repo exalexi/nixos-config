@@ -60,9 +60,7 @@
         "extensions.pocket.api" = "";
         "extensions.pocket.oAuthConsumerKey" = "";
         "extensions.pocket.showHome" = false;
-        "extensions.pocket.site" = "";
-        
-          
+        "extensions.pocket.site" = "";    
       };
       search = {
         default = "DuckDuckGo";
@@ -122,6 +120,12 @@
             urls = [{ template = "https://noogle.dev/q?term={searchTerms}"; }];
             icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
             definedAliases = [ "ng" ];
+          };
+
+          "Home-Manager Options" = {
+            urls = [{ template = "https://home-manager-options.extranix.com/?query={searchTerms}"; }];
+            icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
+            definedAliases = [ "hm" ];
           };
         };	
       };

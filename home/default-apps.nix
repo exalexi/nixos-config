@@ -1,4 +1,6 @@
 { pkgs, lib, ... }: 	{
+  
+  #TODO
   xdg.mimeApps = { 
     enable = true; 
     associations.added = { 

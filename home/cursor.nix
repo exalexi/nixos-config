@@ -1,4 +1,5 @@
 { pkgs, lib, ... }: 	{
+  
   home.pointerCursor = lib.mkForce {
     name = "capitaine-cursors";
     package = pkgs.capitaine-cursors;

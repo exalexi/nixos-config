@@ -8,7 +8,7 @@
       smoothing.noise_reduction = 80;
       color = {
         background = lib.mkForce "'#1E1E2E'";
-        foreground = lib.mkForce "'#F5E0DC'";
+        foreground = lib.mkForce "'#f5c2e7'";
       };
     };
   };
