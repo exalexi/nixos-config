@@ -19,7 +19,7 @@
         enable_posix_regex = true;
         width = 300;
         height = 300;
-        notification_limit = 3;
+        notification_limit = 5;
         origin = "top-right";
         offset = "11x11";
         progress_bar = true;
@@ -67,23 +67,20 @@
       };
       urgency_normal = {
         background = lib.mkForce "#1e1e2e";
-        #background = lib.mkForce "#f5c2e7";
         foreground = lib.mkForce "#f5c2e7";
-        #foreground = lib.mkForce "#1e1e2e";
+        frame_color = lib.mkForce "#f5c2e7";       
         timeout = 10;
       };
       urgency_low = {
         background = lib.mkForce "#1e1e2e";
-        #background = lib.mkForce "#f5c2e7";
         foreground = lib.mkForce "#f5c2e7";
-        #foreground = lib.mkForce "#1e1e2e";
+        frame_color = lib.mkForce "#f5c2e7";
         timeout = 10;
       };
       urgency_critical = {
-        #background = lib.mkForce "#1e1e2e";
         background = lib.mkForce "#f5c2e7";
-        #foreground = lib.mkForce "#f5c2e7";
         foreground = lib.mkForce "#1e1e2e";
+        frame_color = lib.mkForce "#f5c2e7";
         timeout = 10;
       };
     };

@@ -1,4 +1,6 @@
 { pkgs, ... }: 	{
+  
+  # Thanks for like 80% of this Leela 😼
   programs.firefox = {
     enable = true;
 

@@ -10,7 +10,6 @@
     ./mount.nix
     ./networking.nix
     ./sway.nix
-    ./thermald.nix
     ./video.nix
   ];
 }

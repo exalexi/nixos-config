@@ -19,6 +19,7 @@
     vesktop
     nixfmt-rfc-style
     vlc
+    fish
     grim
     slurp
     wtype
@@ -29,8 +30,5 @@
     # Waybar Media Player
     feh 
     playerctl
-    
-    fish
-
   ];
 }

@@ -16,5 +16,6 @@
     polkit
     ntfs3g
     pavucontrol
+    libnotify
   ];
 }
