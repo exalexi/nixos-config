@@ -3,5 +3,6 @@
     [
       ./-system-packages.nix
       ./steam.nix
+      ./zsh.nix
     ];
 }

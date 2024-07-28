@@ -9,5 +9,6 @@
     ./gtk.nix 
     ./rofi.nix
     ./vscode.nix
+    ./zsh.nix
   ];
 }

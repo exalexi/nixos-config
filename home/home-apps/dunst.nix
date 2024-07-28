@@ -1,4 +1,9 @@
-{ pkgs, lib, ... }: {
+let
+  custom = {
+    main = "#1e1e2e";
+    accent = "#f5c2e7";
+  };
+in { pkgs, lib, ... }: {
 
   services.dunst = {
     enable = true;
@@ -62,25 +67,25 @@
         mouse_right_click = "close_current";
         ignore_dbusclose = true;
         override_pause_level = 0;
-        frame_color = lib.mkForce "#f5c2e7";
+        frame_color = lib.mkForce custom.accent;
         
       };
       urgency_normal = {
-        background = lib.mkForce "#1e1e2e";
-        foreground = lib.mkForce "#f5c2e7";
-        frame_color = lib.mkForce "#f5c2e7";       
+        background = lib.mkForce custom.main;
+        foreground = lib.mkForce custom.accent;
+        frame_color = lib.mkForce custom.accent;       
         timeout = 10;
       };
       urgency_low = {
-        background = lib.mkForce "#1e1e2e";
-        foreground = lib.mkForce "#f5c2e7";
-        frame_color = lib.mkForce "#f5c2e7";
+        background = lib.mkForce custom.main;
+        foreground = lib.mkForce custom.accent;
+        frame_color = lib.mkForce custom.accent;
         timeout = 10;
       };
       urgency_critical = {
-        background = lib.mkForce "#f5c2e7";
-        foreground = lib.mkForce "#1e1e2e";
-        frame_color = lib.mkForce "#f5c2e7";
+        background = lib.mkForce custom.accent;
+        foreground = lib.mkForce custom.main;
+        frame_color = lib.mkForce custom.accent;
         timeout = 10;
       };
     };
