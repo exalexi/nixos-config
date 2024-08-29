@@ -33,7 +33,6 @@
     playerctl
 
     #School
-    ciscoPacketTracer8
     libreoffice
     logisim
   ];
