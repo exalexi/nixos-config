@@ -16,6 +16,7 @@
     tigervnc
     gimp
     protonvpn-cli_2
+    protonvpn-gui
     vesktop
     nixfmt-rfc-style
     vlc
@@ -30,5 +31,10 @@
     # Waybar Media Player
     feh 
     playerctl
+
+    #School
+    ciscoPacketTracer8
+    libreoffice
+    logisim
   ];
 }

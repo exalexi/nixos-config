@@ -15,6 +15,7 @@ in { pkgs, lib, config, ... }: {
       "window" = {
         width = lib.mkForce "50";
         height = lib.mkForce "50%";
+        #background-color = lib.mkForce "rgba(30 30 46 0.8)";
         border = lib.mkForce 2;
         border-color =  mkLiteral custom.accent;
         border-radius = 15;

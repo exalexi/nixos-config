@@ -17,5 +17,7 @@
     ntfs3g
     pavucontrol
     libnotify
+    ungoogled-chromium
+    #wpa_supplicant
   ];
 }

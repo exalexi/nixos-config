@@ -32,6 +32,5 @@
     #shadow_color #f4b8e4
 
     # Startup Apps, TODO
-    exec swaylock
     '';
 }

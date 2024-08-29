@@ -5,7 +5,6 @@ let
     background = "1e1e2e";
     translucency = "00000080";
     transparency = "00000000";
-    
   };
 in { pkgs, lib, ... }: {
 
