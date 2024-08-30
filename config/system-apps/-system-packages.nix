@@ -18,6 +18,6 @@
     pavucontrol
     libnotify
     ungoogled-chromium
-    #wpa_supplicant
+    networkmanagerapplet
   ];
 }

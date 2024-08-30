@@ -15,7 +15,7 @@
       reload_style_on_change = true;
       modules-left = [
         "sway/window"
-        #"cava"
+        "network"
         #"image"
         #"custom/mediaplayer"
       ];

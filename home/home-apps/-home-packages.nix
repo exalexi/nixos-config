@@ -28,12 +28,16 @@
     rofimoji
     rofi-power-menu
     rofi-screenshot
+    hwinfo
+    dmidecode 
     # Waybar Media Player
     feh 
     playerctl
 
+
     #School
     libreoffice
     logisim
+    #ciscoPacketTracer8
   ];
 }

@@ -3,6 +3,7 @@
   [
     ./audio.nix
     ./boot.nix
+    ./docker.nix
     ./fonts.nix
     ./greetd.nix
     ./laptop.nix
@@ -11,5 +12,6 @@
     ./networking.nix
     ./sway.nix
     ./video.nix
+    ./virt-manager.nix
   ];
 }
