@@ -23,6 +23,9 @@
       "Mod4+ctrl+shift+s" = "exec steam";
       "Mod4+ctrl+shift+d" = "exec vesktop";
       "Mod4+ctrl+shift+e" = "exec element-desktop";
+      "Mod4+ctrl+shift+w" = "exec libreoffice-writer";
+      "Mod4+ctrl+shift+x" = "exec libreoffice-calc";
+      "Mod4+ctrl+shift+u" = "exec virt-manager";
 
       # Start launcher
       "Mod4+d" = "exec rofi -show-icons -show drun";

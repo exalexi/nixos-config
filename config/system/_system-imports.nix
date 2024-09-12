@@ -12,6 +12,6 @@
     ./networking.nix
     ./sway.nix
     ./video.nix
-    ./virt-manager.nix
+    ./vms.nix
   ];
 }

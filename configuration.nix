@@ -18,7 +18,7 @@
     isNormalUser = true;
     useDefaultShell = true;
     description = "Lexi";
-    extraGroups = [ "networkmanager" "wheel" "video" "storage" "docker" "libvirtd" ];
+    extraGroups = [ "networkmanager" "wheel" "video" "storage" "libvirtd" "wireshark" ];
     packages = with pkgs; [];
   };
 

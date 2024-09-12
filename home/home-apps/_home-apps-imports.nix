@@ -3,6 +3,7 @@
     ./-home-packages.nix 
     ./alacritty.nix	
     ./cava.nix
+    ./dconf.nix
     ./dunst.nix
     ./firefox.nix
     ./git.nix

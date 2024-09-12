@@ -30,14 +30,15 @@
     rofi-screenshot
     hwinfo
     dmidecode 
+
     # Waybar Media Player
     feh 
     playerctl
 
-
     #School
     libreoffice
     logisim
+    freecad
     #ciscoPacketTracer8
   ];
 }

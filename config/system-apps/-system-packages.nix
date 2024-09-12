@@ -19,5 +19,8 @@
     libnotify
     ungoogled-chromium
     networkmanagerapplet
+    openjdk8-bootstrap
+    distrobox
+    wireshark
   ];
 }
